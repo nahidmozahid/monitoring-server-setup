@@ -23,10 +23,7 @@ Node exporter is one of the  Prometheus exporters which is used to expose server
 
 ##Let’s do some hands-on practice##
 
-
-==============================
 @@@Prometheus Installation@@@
-==============================
 
 1.First, update the system repository index
 >> sudo apt update
@@ -108,9 +105,7 @@ WantedBy=multi-user.target
 14. Now Prometheus service is ready to run and we can access it from any web browser:
 >> http://server-IP-or-Hostname:9090.
 
-============================
 @@@Download Node Exporter@@@
-============================
 
 1. cd /tmp/
 
@@ -169,9 +164,8 @@ WantedBy=multi-user.target
 
 13. Now Hit the URL in web browser to check weather target is successfully scraped by Prometheus or not
 
-===========================
+
 @@@Install Grafana@@@
-===========================
 
 1. Add the Grafana GPG key:
    >> wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
